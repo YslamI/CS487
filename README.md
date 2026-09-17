@@ -1,2 +1,1 @@
-# CS487
-Project based open source Image > Video > 
+The function of our application is to prevent the misuse of AI in creating deepfake images of people. It will detect AI-created images of people and filter them out from real ones. This app is especially useful on social media, where fake images can spread quickly. Detecting such photos can prevent users from the bad consequences of AI-created photos.
