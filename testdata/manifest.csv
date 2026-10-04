@@ -1,0 +1,61 @@
+id,subset,filename,ground_truth,source,derived_from,notes
+A-01,A,ai_high_01.jpg,ai,generated,,"High-quality synthetic: portrait of a person, photorealistic"
+A-02,A,ai_high_02.jpg,ai,generated,,High-quality synthetic: outdoor street scene
+A-03,A,ai_high_03.jpg,ai,generated,,High-quality synthetic: interior of a room
+A-04,A,ai_high_04.jpg,ai,generated,,High-quality synthetic: landscape with sky
+A-05,A,ai_high_05.jpg,ai,generated,,High-quality synthetic: group of people
+A-06,A,ai_high_06.jpg,ai,generated,,High-quality synthetic: close-up of hands
+A-07,A,ai_high_07.jpg,ai,generated,,High-quality synthetic: food on a plate
+A-08,A,ai_high_08.jpg,ai,generated,,High-quality synthetic: animal portrait
+A-09,A,ai_high_09.jpg,ai,generated,,High-quality synthetic: architectural exterior
+A-10,A,ai_high_10.jpg,ai,generated,,High-quality synthetic: crowd at an event
+A-11,A,ai_high_11.jpg,ai,generated,,High-quality synthetic: vehicle on a road
+A-12,A,ai_high_12.jpg,ai,generated,,High-quality synthetic: person holding an object
+A-13,A,ai_high_13.jpg,ai,generated,,High-quality synthetic: nighttime city scene
+A-14,A,ai_high_14.jpg,ai,generated,,High-quality synthetic: still life arrangement
+A-15,A,ai_high_15.jpg,ai,generated,,High-quality synthetic: child's face
+B-01,B,real_high_01.jpg,real,photographed,,Authentic photograph: portrait taken on phone
+B-02,B,real_high_02.jpg,real,photographed,,Authentic photograph: street photographed outdoors
+B-03,B,real_high_03.jpg,real,photographed,,"Authentic photograph: room interior, natural light"
+B-04,B,real_high_04.jpg,real,photographed,,"Authentic photograph: landscape, daylight"
+B-05,B,real_high_05.jpg,real,photographed,,Authentic photograph: group photo
+B-06,B,real_high_06.jpg,real,photographed,,Authentic photograph: close-up of hands
+B-07,B,real_high_07.jpg,real,photographed,,Authentic photograph: meal photograph
+B-08,B,real_high_08.jpg,real,photographed,,Authentic photograph: pet photograph
+B-09,B,real_high_09.jpg,real,photographed,,Authentic photograph: building exterior
+B-10,B,real_high_10.jpg,real,photographed,,Authentic photograph: event crowd
+B-11,B,real_high_11.jpg,real,photographed,,Authentic photograph: parked vehicle
+B-12,B,real_high_12.jpg,real,photographed,,Authentic photograph: object held in hand
+B-13,B,real_high_13.jpg,real,photographed,,"Authentic photograph: night street, phone camera"
+B-14,B,real_high_14.jpg,real,photographed,,Authentic photograph: objects on a desk
+B-15,B,real_high_15.jpg,real,photographed,,Authentic photograph: candid face
+C-01,C,ai_degraded_01.jpg,ai,derived,A-01,Re-compressed and downscaled to simulate social-media resharing
+C-02,C,ai_degraded_02.jpg,ai,derived,A-02,Re-compressed and downscaled to simulate social-media resharing
+C-03,C,ai_degraded_03.jpg,ai,derived,A-03,Re-compressed and downscaled to simulate social-media resharing
+C-04,C,ai_degraded_04.jpg,ai,derived,A-04,Re-compressed and downscaled to simulate social-media resharing
+C-05,C,ai_degraded_05.jpg,ai,derived,A-05,Re-compressed and downscaled to simulate social-media resharing
+C-06,C,ai_degraded_06.jpg,ai,derived,A-06,Re-compressed and downscaled to simulate social-media resharing
+C-07,C,ai_degraded_07.jpg,ai,derived,A-07,Re-compressed and downscaled to simulate social-media resharing
+C-08,C,ai_degraded_08.jpg,ai,derived,A-08,Re-compressed and downscaled to simulate social-media resharing
+D-01,D,real_degraded_01.jpg,real,derived,B-01,Re-compressed and downscaled; must not be misread as synthetic
+D-02,D,real_degraded_02.jpg,real,derived,B-02,Re-compressed and downscaled; must not be misread as synthetic
+D-03,D,real_degraded_03.jpg,real,derived,B-03,Re-compressed and downscaled; must not be misread as synthetic
+D-04,D,real_degraded_04.jpg,real,derived,B-04,Re-compressed and downscaled; must not be misread as synthetic
+D-05,D,real_degraded_05.jpg,real,derived,B-05,Re-compressed and downscaled; must not be misread as synthetic
+D-06,D,real_degraded_06.jpg,real,derived,B-06,Re-compressed and downscaled; must not be misread as synthetic
+D-07,D,real_degraded_07.jpg,real,derived,B-07,Re-compressed and downscaled; must not be misread as synthetic
+D-08,D,real_degraded_08.jpg,real,derived,B-08,Re-compressed and downscaled; must not be misread as synthetic
+E-01,E,ambiguous_01.jpg,ai,generated,,"Human-made digital painting, AI-generated for contrast"
+E-02,E,ambiguous_02.jpg,real,photographed,,Hand-drawn illustration photographed
+E-03,E,ambiguous_03.jpg,real,photographed,,Heavily filtered phone photograph
+E-04,E,ambiguous_04.jpg,ai,generated,,Synthetic image with deliberate post-processing applied
+E-05,E,ambiguous_05.jpg,real,photographed,,Photograph of a computer screen displaying a photograph
+E-06,E,ambiguous_06.jpg,ai,generated,,AI image upscaled and sharpened after generation
+E-07,E,ambiguous_07.jpg,real,photographed,,Long-exposure photograph with unusual lighting
+E-08,E,ambiguous_08.jpg,ai,generated,,Synthetic image with added film grain and noise
+F-01,F,invalid_pdf.jpg,n/a,constructed,,PDF document renamed with a .jpg extension
+F-02,F,truncated.jpg,n/a,constructed,,Valid JPEG truncated to half its byte length
+F-03,F,empty.jpg,n/a,constructed,,Zero-byte file with an image extension
+F-04,F,oversized.png,n/a,constructed,,Image exceeding the application's upload size limit
+F-05,F,unsupported.bmp,n/a,constructed,,Format outside the supported set
+F-06,F,bad_header.png,n/a,constructed,,Valid length but corrupted header bytes
