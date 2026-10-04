@@ -357,6 +357,7 @@ Expected final state: The interruption produces a clear message that the analysi
 complete and that no result is available, rather than an indefinite spinner or a result
 produced from partial data. After the connection is restored, the retry completes normally.
 
+
 3. User Personas and User Experience Assessment  
 
 We prepared four personas to determine the usability of the AI deepfake detection application. These personas stand for the different user groups of the AI Deepfake Detection Application: general consumers, journalists or fact-checkers, content moderators and teachers or students. Each persona includes details about technical skills, goals, usage locations, and expectations. 
