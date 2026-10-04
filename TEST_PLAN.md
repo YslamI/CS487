@@ -356,3 +356,53 @@ Execution steps:
 Expected final state: The interruption produces a clear message that the analysis did not
 complete and that no result is available, rather than an indefinite spinner or a result
 produced from partial data. After the connection is restored, the retry completes normally.
+
+3. User Personas and User Experience Assessment  
+
+We prepared four personas to determine the usability of the AI deepfake detection application. These personas stand for the different user groups of the AI Deepfake Detection Application: general consumers, journalists or fact-checkers, content moderators and teachers or students. Each persona includes details about technical skills, goals, usage locations, and expectations. 
+
+  
+
+3.1 General Consumer Persona: Sarah Ahmed 
+
+Sarah Ahmed, a 21-year-old university student, regularly uses the social media platforms Instagram, TikTok and X. With moderate technical knowledge, Sarah doesn't understand AI image detection algorithms. As she often comes across such images on the internet, she would like to have a quick method of determining if an image is genuine before sharing it with her friends or retweeting it. She mainly uses the application on her mobile device via Wi-Fi or cellular data.  
+
+Sarah wants the application to be simple, fast and easy to use, no special knowledge required. She hopes that all she has to do is to upload an image and then receive a clear result such as “AI-generated” or “Real/Authentic”. Also, she requires the application to provide an explanation for the reason for its conclusion, rather than technical details about the classification algorithm.  
+
+Sarah will save a social media image, upload it to the application, and interpret the result herself. The test will look into whether Sarah is able to perform the task, how long it took her to complete the task, and whether she was able to correctly understand the classification and confidence score. Later, Sarah will complete a usability questionnaire about interface clarity, error messages, explanations, and ease of use. 
+
+  
+
+3.2 Journalist/Fact-Checker Persona: Daniel Brooks 
+
+Daniel Brooks, 34, is a journalist who gets photos from media outlets, eyewitnesses, and online contributors for current events. As publishing AI-generated or altered images could harm his organization's reputation, Daniel must check them quickly. He usually works using a laptop and a desktop web browser and possesses a moderate level of technical knowledge.  
+
+Daniel needs from the AI Deepfake Detection Application reliable classifications, information about the level of confidence, clear evidence to support the classification, and the ability to export the results. As Daniel often honestly works under very tight deadlines, the time taken is especially important to him. He also wants assurance that the application doesn't store unpublished or sensitive images.  
+
+Daniel will get genuine and AI-created images in a breaking news style and choose which are publication-worthy. He must also export one image's analysis for supporting documentation. The test will check how long Daniel takes, his result interpretation, export function use, and decision confidence. Then an interview will assess whether the explanations provide information that can support an editorial decision and whether the privacy protections of the AI Deepfake Detection Application are explained clearly. 
+
+  
+
+3.3 Content Moderator Persona: Maya Rodriguez 
+
+Maya Rodriguez, 29, is a trust and safety specialist for a social media platform. On duty, she reviews many images that may be misleading or violate platform policies. With experience in moderation software, she works from a desktop computer. Though not a regular user, she often examines multiple images in sequence, making consistent decisions based on the application's classifications.  
+
+Maya needs an efficient workflow to analyse multiple images without restarting the application; results and labels must be clear, consistent, and easy to understand. The application must also remain responsive during heavy activity, like major news events or large image verification.  
+
+Maya will be given a queue of real images to examine in turn. The test will look into the average time Maya takes to process each image, the number of navigation errors and whether the classifications are interpreted consistently. It will also review if repeated upload screen navigation causes confusion or difficulty. Following on from this, Maya will evaluate the AI Deepfake Detection Application for its efficiency, clarity and usefulness for a moderation context. 
+
+ 
+
+3.4 Educator and Student Role: Professor Emily Chen  
+
+Professor Emily Chen teaches media literacy, covering misinformation, generative AI, and responsible online content use. She wishes to show that, although AI detection tools can provide evidence, there's the possibility that they will have difficulty dealing with unusual or degraded images; in her classes she sometimes uses screenshots, pictures, digital art and other complicated examples to illustrate to her students the limitations of automated detection.  
+
+The app must show, when giving a classification, that it's not 100% certain about it. It's important to include confidence scores alongside simple explanations as Professor Chen would like the students to understand why an image may be hard to classify. The app should handle low-quality or odd images without crashing or providing high-confidence answers. 
+
+Professor Chen will test the app with photos, AI-created images, compressed screenshots, and digital art. She will have to explain the app’s results to a group of students, relying only on what the interface displays. The test will look into whether the confidence score and the explanation enable users to identify uncertainty, whether the error messages are clear and whether the students can correctly explain what the classification means. Feedback from both Professor Chen and the students will be collected to discover if the app actually kind of helps with teaching and discussion about media. 
+
+  
+
+Overall User Experience Evaluation  
+
+That user experience for all four personas will be assessed for task completion rate, the number of errors, the ability to correctly read the classification results and confidence scores, as well as the results of short usability post-test surveys. Observations and follow-up questions will help identify confusion or unnecessary steps. By using tasks tailored to each persona, the app is assessed not only on its technical correctness but also on how well it supports the various ways in which consumers, journalists, moderators and educators are intended to use it. 
